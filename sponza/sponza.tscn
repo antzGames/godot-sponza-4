@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://vv3ffpj2ru1n"]
+[gd_scene load_steps=7 format=3 uid="uid://vv3ffpj2ru1n"]
 
 [ext_resource type="PackedScene" uid="uid://bk6j1ld3ht8jy" path="res://sponza/Sponza.dae" id="1"]
-[ext_resource type="Script" uid="uid://ds3p54edy2x12" path="res://sponza/fps_label.gd" id="2_mpg6q"]
+[ext_resource type="Script" path="res://sponza/sponza.gd" id="1_xrl63"]
+[ext_resource type="Script" path="res://sponza/fps_label.gd" id="2_mpg6q"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_6uyo0"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -16,6 +17,7 @@ sky = SubResource("Sky_c5mm7")
 tonemap_mode = 2
 
 [node name="WorldEnvironment" type="Node3D"]
+script = ExtResource("1_xrl63")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.734247, -0.312433, 0.602717, 0.488088, 0.37413, 0.788541, -0.47186, 0.873163, -0.122209, 0, 0, 0)
