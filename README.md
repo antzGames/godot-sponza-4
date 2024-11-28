@@ -1,6 +1,9 @@
-# Sponza for Godot 4.0
+# Sponza for Godot 4.0 with Godot Universal Settings Plugin
 
 A "bare" Sponza for testing Godot 4.0's new renderer.
+
+![Sponza](https://github.com/user-attachments/assets/72f12c9f-6e20-4799-8b9c-bb0229f9161d)
+
 
 See [godot-sponza](https://github.com/Calinou/godot-sponza) if you want a
 nice-looking Sponza demo for Godot 3.2.
